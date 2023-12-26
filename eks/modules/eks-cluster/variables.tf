@@ -2,13 +2,10 @@
 # General Variables from root module
 ################################################################################
 
-variable "profile" {
-  type = string
-}
 
-variable "main-region" {
-  type = string
-}
+# variable "main-region" {
+#   type = string
+# }
 
 ################################################################################
 # Variables from other Modules

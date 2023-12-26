@@ -10,7 +10,8 @@ variable "profile" {
 
 variable "main-region" {
   type    = string
-  default = "us-east-2"
+  # default = "us-east-2"
+  default = "ap-southeast-1"
 }
 
 

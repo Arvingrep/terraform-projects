@@ -1,9 +1,9 @@
 terraform {
   required_version = ">=0.12.0"
   backend "s3" {
-    region  = "us-east-2"
+    region  = "ap-southeast-1"
     profile = "default"
-    key     = "terraformstatefile"
-    bucket  = ""
+    key     = "eks/terraform.tfstate"
+    bucket  = "terraform-on"
   }
 }
